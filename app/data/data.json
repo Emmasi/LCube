@@ -1,0 +1,156 @@
+{
+    "start": {
+        "heading": "Välkommen till LCube AB",
+        "intro": "LCube är ett mindre företag som är inriktat på DevOps.",
+        "text": [
+            "LCube har erfarenhete av deployer med olika verktyg som: AzureDevOps, GitHub, TeamCity, Octopus Deploy.Deployment språk vi använt är: powershell, bash, cake, packer, terraform.",
+            "De molnplattformar vi arbetat med är: Amazons AWS och Microsoft Azure. Vi kan även göra applikationer skrivna i C# med ASP.NET eller .NET Core. Vi har haft media, retail fashion, banker och iGaming som kunder.",
+            "De molnplattformar vi arbetat med är: Amazons AWS och Microsoft Azure. Vi kan även göra applikationer skrivna i C# med ASP.NET eller .NET Core. Vi har haft media, retail fashion, banker och iGaming som kunder.De molnplattformar vi arbetat med är: Amazons AWS och Microsoft Azure. Vi kan även göra applikationer skrivna i C# med ASP.NET eller .NET Core. Vi har haft media, retail fashion, banker och iGaming som kunder."
+        ],
+        "comment": [
+            {
+                "heading": "#Hannibal",
+                "date": "02-10-2018",
+                "text": "Människokött smakar bäst fritterad, medium raw. Stekt tillsammans med vitlök och morötter. Potatis vid sidan"
+            },
+            {
+                "heading": "#Dexter",
+                "date": "20-01-2011",
+                "text": "Blod är tjockare än vatten. Ca 7 % av kroppsvikten utgörs av blod hos en vuxen människa. En person som väger 70 kg har alltså knappt 5 liter blod."
+            },
+            {
+                "heading": "#michael",
+                "date": "08-11-2010",
+                "text": "-Never give up, är mitt moto. Jag och min syster har en träff i morgon. Jag kommer ta med och visa henne mitt favorit sammlar verktyg."
+            }
+        ],
+        "lastBlog": [
+            {
+                "heading": "Rubrik",
+                "date": "02-10-2018",
+                "text": "Nått typ av intro till själva bloggen..."
+            },
+            {
+                "heading": "Rubrik",
+                "date": "02-10-2018",
+                "text": "Nått typ av intro till själva bloggen..."
+            }
+        ]
+    },
+    "aboutUs": {
+        "heading": "Om LCube AB",
+        "subheading": "LCube AB ",
+        "text": [
+            "Vi är ett litet konsultföretag som etablerades år 2002 och har sitt huvudsäte i Stockholm. Vår passion ligger i att arbeta med rapporter och vi har varit engagerade inom Olap och Business Intelligence sedan slutet av 1990-talet. Vi har en kreativ approach när det kommer till problemlössningar, och vårt specialområde är utveckling inom Microsoft-stacken.",
+            "Genom åren har vi framgångsrikt hjälpt företag inom olika branscher, inklusive bank, media och detaljhandel, med att skapa samarbetsmöjligheter mellan verksamhet, IT-drift och utvecklingsavdelningar. I vår verktygslåda för att främja en välfungerande DevOps-kultur inkluderar vi aktiviteter som hälsotävlingar och sociala evenemang för att stärka teamandan.",
+            "Utöver vår aktiva utveckling inom open source projekt på GitHub inom områden som Powershell, C#, JavaScript och Rust, har vi också organiserat och deltagit i flera hackathons där vi har vunnit priser. Våra insatser spänner från problemlösning inom DevOps till att utforska kvantdatorer.",
+            "Vi delar gärna med oss av vår kunskap genom att skapa kurser, producera videomaterial och hålla föreläsningar. Ta en titt på våra IT-kurser på Udemy inom ämnet DevOps för att få en fördjupad inblick i vårt expertis och erfarenhet."
+        ],
+        "lastBlog": [
+            {
+                "heading": "Rubrik",
+                "date": "02-10-2018",
+                "text": "Nått typ av intro till själva bloggen..."
+            },
+            {
+                "heading": "Rubrik",
+                "date": "02-10-2018",
+                "text": "Nått typ av intro till själva bloggen..."
+            }
+        ],
+        "stycken": [
+            {
+                "heading": "Kurser på Pluralsight",
+                "text": "Kurser jag tyckte bäst om:",
+                "list": [
+                    "Date and Time Fundamentals",
+                    "Career and Survival Strategies for Software Developers",
+                    "F# Functional Data Structures",
+                    "Writing Content With Markdown"
+                ]
+            },
+            {
+                "heading": "Kurser på Udemy",
+                "text": "lista eller text om vilka kurser",
+                "list": []
+            },
+            {
+                "heading": "Lästa böcker",
+                "text": "Litteratur som jag har läst och finner intressant",
+                "list": [
+                    "How to measure anything",
+                    "Book of Proof",
+                    "Handbook of Product Graphs, Second Edition (Discrete Mathematics and Its Applications)",
+                    "The Philosophy of F. P. Ramsey",
+                    "The Kimball Group Reader",
+                    "Bandit Algorithms for Website Optimization",
+                    "Domain-Specific Languages(Microsoft .NET Development Series) [Kindle Edition]",
+                    "Getting Started with D3",
+                    "Thinking fast and slow",
+                    "Cooking for Geeks"
+                ]
+            },
+            {
+                "heading": "Seminarier",
+                "text": "Seminarierna jag har deltagit i",
+                "list": [
+                    " Microsoft – The integration story",
+                    "REST/OData/Entity Framework & BizTalk Certification Cram",
+                    "SQLUG-träff med Jen Stirrup / David Jonsson och årsmöte",
+                    "http://www.sqlpass.org/sqlrally/2011/nordic/",
+                    "Community day .Net Best practies",
+                    "Community day NoSQL 20 Februari 2013"
+                ]
+            }
+        ]
+    },
+    "blogs": {
+        "heading": "Blog",
+        "blogs":[
+            {
+                "subheading": "Under rubrik",
+                "introText": "Intro texten frå bloggen..."
+            },
+            {
+                "subheading": "Under rubrik",
+                "introText": "Intro texten frå bloggen..."
+            },
+            {
+                "subheading": "Under rubrik",
+                "introText": "Intro texten frå bloggen..."
+            }
+        ]
+    },
+    "blog":{
+        "heading":"Rubrik",
+        "subheading":"Rubrik",
+        "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    "contakt": {
+        "heading": "Kontakta oss",
+        "subheading": "Välkommen att ta kontakt med oss!",
+        "text": [
+            "Vi finns i Stockholm",
+            "Kontaka oss på:",
+            "E-mail: patrik.lindstrom@lcube.se",
+            "E-mail: jane.lindstrom@lcube.se"
+        ],
+        "comment": [
+            {
+                "heading": "#Hannibal",
+                "date": "02-10-2018",
+                "text": "Människokött smakar bäst fritterad, medium raw. Stekt tillsammans med vitlök och morötter. Potatis vid sidan"
+            },
+            {
+                "heading": "#Dexter",
+                "date": "20-01-2011",
+                "text": "Blod är tjockare än vatten. Ca 7 % av kroppsvikten utgörs av blod hos en vuxen människa. En person som väger 70 kg har alltså knappt 5 liter blod."
+            },
+            {
+                "heading": "#michael",
+                "date": "08-11-2010",
+                "text": "-Never give up, är mitt moto. Jag och min syster har en träff i morgon. Jag kommer ta med och visa henne mitt favorit sammlar verktyg."
+            }
+        ]
+    }
+}

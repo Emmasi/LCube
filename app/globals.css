@@ -2,26 +2,53 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+h1{
+    color: #16252c;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.header {
+    background-color: #b99955;
+    border-bottom: 1px #16252c solid;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.navbar__item {
+    color: #16252c;
+}
+.blogs{
+    border:#16252c 1px solid;
+}
+.breaker {
+    border: 8px #b99955 dotted;
+    border-bottom: none;
+    width: 40%;
+}
+
+.comments {
+    background-color: #f5f3de;
+}
+.lastBlog{
+    border:#16252c solid 1px;
+    padding: 5rem;
+}
+
+.link{
+    text-decoration: underline;
+}
+
+.readMore-btn{
+    border-radius: 15px;
+    border:1px #16252c solid;
+    background-color: #ffffff;
+    color: #16252c;
+    font-weight: bold;
+    padding: 0.2rem 1rem;
+
+}
+.readMore-btn:hover{
+    background-color: #f5f3de;
+}
+
+.footer {
+    background-color: #16252c;
+    color: #f5f3de;
 }
