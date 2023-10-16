@@ -14,12 +14,11 @@ h1{
 .navbar__item {
     color: #16252c;
 }
-.blogs{
-    border:#16252c 1px solid;
-}
+
 .breaker {
     border: 8px #b99955 dotted;
     border-bottom: none;
+    margin: 4rem auto;
     width: 40%;
 }
 

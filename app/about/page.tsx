@@ -18,13 +18,13 @@ export default function About() {
                 ))}
             </section>
             <section className="w-11/12 md:w-3/6 ">
-                <p className="text-lg pb-6 pt-8">Vill du veta mer om våra kundskaper kolla in våran <a href="#" className="link">linkedin profil ></a>
+                <p className="text-lg pb-6 pt-8">Vill du veta mer om våra kundskaper kolla in våran <a href="#" className="link">linkedin profil</a>
                 </p>
             </section>
             <Breaker />
             <section className="w-11/12 md:w-3/6  mb-10">
                 <h2 className="md:text-4xl pb-8"> Senaste bloggar</h2>
-                <Komments class={pageData.lastBlog} />
+                <Komments text={pageData.lastBlog} class={"lastBlog"}/>
             </section>
             <Breaker />
             {pageData.stycken.map((stycke) => (
