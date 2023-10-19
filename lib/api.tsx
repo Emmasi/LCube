@@ -66,7 +66,8 @@ export async function getPostById(id: string) {
 
 export async function getAllPosts() {
   const posts = await Promise.all(
-    fs.readdirSync('_posts').map(id => getPostById(id)),
+    fs.readdirSync('_posts').map(id => getPostById(id)
+      ),
   )
   return posts.sort((post1, post2) => (post1.date > post2.date ? -1 : 1))
 }

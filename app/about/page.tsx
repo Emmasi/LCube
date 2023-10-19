@@ -1,9 +1,11 @@
 import Breaker from "../components/shared/breaker"
 import Header from '../components/shared/rubrik'
 import Data from '../data/data.json'
-import Komments from '../components/shared/treBox'
+import Link from "next/link"
+import { getAllPosts } from '@/lib/api'
 
-export default function About() {
+export default async function About() {
+    const posts = await getAllPosts()
     const pageData = Data.aboutUs
 
     return (
@@ -12,34 +14,56 @@ export default function About() {
             <section className="w-11/12 md:w-3/6 ">
                 <h2 className="md:text-4xl pb-8">{pageData.subheading}</h2>
                 {pageData.text.map((text, index) => (
-                    <p key={index} className="text-base pb-6">
+                    <p key={index} className="text-base">
                         {text}
                     </p>
                 ))}
             </section>
             <section className="w-11/12 md:w-3/6 ">
-                <p className="text-lg pb-6 pt-8">Vill du veta mer om våra kundskaper kolla in våran <a href="#" className="link">linkedin profil</a>
+                <p className="text-lg">Vill du veta mer om våra kundskaper kolla in våran <a href="#" className="link">linkedin profil</a>
                 </p>
             </section>
             <Breaker />
-            <section className="w-11/12 md:w-3/6  mb-10">
+            <section className="w-11/12 md:w-3/6 my-10">
                 <h2 className="md:text-4xl pb-8"> Senaste bloggar</h2>
-                <Komments text={pageData.lastBlog} class={"lastBlog"}/>
             </section>
+            <section className="w-11/12 mb-10">
+                <div className="flex flex-row justify-around items-center">
+                    {posts.slice(0, 2).map(post => {
+                        return (
+                            <div className="px-8">
+                                <h2 className="pb-2 md:text-2xl">{post.title}</h2>
+                                <p className="pb-6 text-xs italic">{post.date}</p>
+                                <p className="pb-4 text-l ">{post.description}</p>
+                                <Link href={`/posts/${post.id}`}>
+                                    <div className="self-end">
+                                        <p className="text-lg">Läs mer..</p>
+                                    </div>
+                                </Link>
+                            </div>
+                        )
+                    })}
+                </div>
+            </section >
             <Breaker />
-            {pageData.stycken.map((stycke) => (
-                <section className="w-11/12 md:w-3/6  mb-10">
-                    <h3 className="text-2xl">{stycke.heading}</h3>
-                    <p className="text-base pt-3">{stycke.text}</p>
-                    <ul className="list-disc p-4">
-                        {stycke.list.map((text, index) => (
-                            <li key={index} className="text-base pb-2">
-                                {text}
-                            </li>
-                        ))}
-                    </ul>
-                </section>
-            ))}
+            <section className="w-11/12 md:w-3/6">
+                <h2 className="md:text-4xl pb-8"> Rubrik</h2>
+            </section>
+            {
+                pageData.stycken.map((stycke) => (
+                    <section className="w-11/12 md:w-3/6  mb-10">
+                        <h3 className="text-2xl">{stycke.heading}</h3>
+                        <p className="text-base">{stycke.text}</p>
+                        <ul className="list-disc p-4">
+                            {stycke.list.map((text, index) => (
+                                <li key={index} className="text-base pb-2">
+                                    {text}
+                                </li>
+                            ))}
+                        </ul>
+                    </section>
+                ))
+            }
         </>
 
     )

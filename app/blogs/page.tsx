@@ -1,5 +1,5 @@
 
-import Link from 'next/link'
+
 import BlogCard from '../components/shared/blog'
 import Heading from '../components/shared/rubrik'
 import Breaker from '../components/shared/breaker'
@@ -10,15 +10,14 @@ export default async function Page() {
 
     return (
         <>
-            <Heading heading="Blog" />
+            <Heading heading="Blogg" />
             <section className="w-11/12 md:w-3/6 ">
-            <ul className="">
+            <ul>
                 {posts.map(post => {
                     const { id, date, title, description } = post
                     return (
-                            <li key={id} className="p-6">
+                            <li key={id} className="px-4 py-10">
                                 <BlogCard postPreview={post} />
-                                <Breaker />
                             </li>   
                     )
                 })}
