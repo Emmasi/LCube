@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
 h1{
     color: #16252c;
 }
@@ -17,18 +20,25 @@ h3{
 p{
     margin: 1rem 0;
 }
+main{
+    background-color: #f5fafc;
+}
 
 .header {
-    background-color: #b99955;
-    border-bottom: 1px #16252c solid;
+    background-color: #172847;
+    border:#f5fafc solid 1px;
 }
 
 .navbar__item {
-    color: #16252c;
+    color: #ffffff;
 }
-
+.log{
+    background-color: #f5fafc;
+    padding: 0.2rem;
+    margin-right: 0.5rem;
+}
 .breaker {
-    border: 8px #b99955 dotted;
+    border: 8px #172847 dotted;
     border-bottom: none;
     margin: 4rem auto;
     width: 40%;
@@ -60,6 +70,6 @@ p{
 }
 
 .footer {
-    background-color: #16252c;
+    background-color: #172847;
     color: #f5f3de;
 }
