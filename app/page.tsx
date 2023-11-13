@@ -24,9 +24,9 @@ export default async function Home() {
             </section>
             <section className="w-11/12 mb-10">
                 <div className="flex flex-row justify-around items-center">
-                    {posts.slice(0, 2).map(post => {
+                    {posts.slice(0, 2).map((post,index) => {
                         return (
-                            <div className="px-8">
+                            <div key={index} className="px-8">
                                 <h2 className="pb-2 md:text-2xl">{post.title}</h2>
                                 <p className="text-xs italic">{post.date}</p>
                                 <p className="text-l ">{post.description}</p>
@@ -41,7 +41,7 @@ export default async function Home() {
                 </div>
             </section >
             <section className="mt-36">
-                <Komments text={pageData.comment} class={"comments"}/>
+                <Komments comments={pageData.comment} class={"comments"}/>
             </section> 
         </>
 

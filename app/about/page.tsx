@@ -29,9 +29,9 @@ export default async function About() {
             </section>
             <section className="w-11/12 mb-10">
                 <div className="flex flex-row justify-around items-center">
-                    {posts.slice(0, 2).map(post => {
+                    {posts.slice(0, 2).map((post,index) => {
                         return (
-                            <div className="px-8">
+                            <div key={index} className="px-8">
                                 <h2 className="pb-2 md:text-2xl">{post.title}</h2>
                                 <p className="pb-6 text-xs italic">{post.date}</p>
                                 <p className="pb-4 text-l ">{post.description}</p>
@@ -50,8 +50,8 @@ export default async function About() {
                 <h2 className="md:text-4xl pb-8"> Rubrik</h2>
             </section>
             {
-                pageData.stycken.map((stycke) => (
-                    <section className="w-11/12 md:w-3/6  mb-10">
+                pageData.stycken.map((stycke,index) => (
+                    <section key={index} className="w-11/12 md:w-3/6  mb-10">
                         <h3 className="text-2xl">{stycke.heading}</h3>
                         <p className="text-base">{stycke.text}</p>
                         <ul className="list-disc p-4">
