@@ -20,7 +20,7 @@ export default async function About() {
                 ))}
             </section>
             <section className="w-11/12 md:w-3/6 ">
-                <p className="text-lg">Vill du veta mer om våra kundskaper kolla in våran <a href="#" className="link">linkedin profil</a>
+                <p className="text-lg">Vill du veta mer om våra kundskaper kolla in våran <a href="https://www.linkedin.com/in/patriklindstrom64/" className="link">linkedin profil</a>
                 </p>
             </section>
             <Breaker />
@@ -47,7 +47,7 @@ export default async function About() {
             </section >
             <Breaker />
             <section className="w-11/12 md:w-3/6">
-                <h2 className="md:text-4xl pb-8"> Rubrik</h2>
+                <h2 className="md:text-4xl pb-8">Kurser och Seminarier</h2>
             </section>
             {
                 pageData.stycken.map((stycke,index) => (

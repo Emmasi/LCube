@@ -4,8 +4,7 @@
         "intro": "LCube är ett mindre företag som är inriktat på DevOps.",
         "text": [
             "LCube har erfarenhete av deployer med olika verktyg som: AzureDevOps, GitHub, TeamCity, Octopus Deploy.Deployment språk vi använt är: powershell, bash, cake, packer, terraform.",
-            "De molnplattformar vi arbetat med är: Amazons AWS och Microsoft Azure. Vi kan även göra applikationer skrivna i C# med ASP.NET eller .NET Core. Vi har haft media, retail fashion, banker och iGaming som kunder.",
-            "De molnplattformar vi arbetat med är: Amazons AWS och Microsoft Azure. Vi kan även göra applikationer skrivna i C# med ASP.NET eller .NET Core. Vi har haft media, retail fashion, banker och iGaming som kunder.De molnplattformar vi arbetat med är: Amazons AWS och Microsoft Azure. Vi kan även göra applikationer skrivna i C# med ASP.NET eller .NET Core. Vi har haft media, retail fashion, banker och iGaming som kunder."
+            "De molnplattformar vi arbetat med är: Amazons AWS och Microsoft Azure. Vi kan även göra applikationer skrivna i C# med ASP.NET eller .NET Core. Vi har haft media, retail fashion, banker och iGaming som kunder."
         ],
         "comment": [
             {
@@ -22,18 +21,6 @@
                 "heading": "#michael",
                 "date": "08-11-2010",
                 "text": "-Never give up, är mitt moto. Jag och min syster har en träff i morgon. Jag kommer ta med och visa henne mitt favorit sammlar verktyg."
-            }
-        ],
-        "lastBlog": [
-            {
-                "heading": "Rubrik",
-                "date": "02-10-2018",
-                "text": "Nått typ av intro till själva bloggen..."
-            },
-            {
-                "heading": "Rubrik",
-                "date": "02-10-2018",
-                "text": "Nått typ av intro till själva bloggen..."
             }
         ]
     },
@@ -137,19 +124,19 @@
         ],
         "comment": [
             {
-                "heading": "#Hannibal",
-                "date": "02-10-2018",
-                "text": "Människokött smakar bäst fritterad, medium raw. Stekt tillsammans med vitlök och morötter. Potatis vid sidan"
+                "heading": "H & M",
+                "date": "2005-2011",
+                "text": "Programming a Website for internal Logistics with 130 users all over the world. Technical stack is SQL Server"
             },
             {
-                "heading": "#Dexter",
-                "date": "20-01-2011",
-                "text": "Blod är tjockare än vatten. Ca 7 % av kroppsvikten utgörs av blod hos en vuxen människa. En person som väger 70 kg har alltså knappt 5 liter blod."
+                "heading": "SEB IT",
+                "date": "2011-2016",
+                "text": "For the Onefund Project i am handling the deployment of TCM TMC is a system for handling Funds. in a complex environment with SQLServer, Soap webservices running on IIS, SAML security for all the development and testservers."
             },
             {
-                "heading": "#michael",
-                "date": "08-11-2010",
-                "text": "-Never give up, är mitt moto. Jag och min syster har en träff i morgon. Jag kommer ta med och visa henne mitt favorit sammlar verktyg."
+                "heading": "DevOps Engineer at Skandiabanken",
+                "date": "2016-2020",
+                "text": "I work with Octopus deploy, TFS, Git, Splunk, SonarQube for the dotnet development at the bank.-Never give up, är mitt moto. Jag och min syster har en träff i morgon. Jag kommer ta med och visa henne mitt favorit sammlar verktyg."
             }
         ]
     }
