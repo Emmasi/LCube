@@ -2,6 +2,8 @@
 title: Angular JS Controller error Argument is not a function
 date: 2021-06-23
 description: Today I got an error of several hello world todo examples in AngularJS when I tryed new 1.3 version.
+img: /hacker.jpg
+alt: blåtonade bilder av dator
 ---
 # Broken Control error in Angular
 

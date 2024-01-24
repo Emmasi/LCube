@@ -2,6 +2,8 @@
 title: Vas-Stickan simple Xamarin App
 date: 2021-06-08
 description: I have started to write a crossplattform app with Xamarin for ios, windows and Android devices. I started using Xamarin a year ago.
+img: /dataimg.jpg
+alt: blåtonade bilder av dator
 ---
 
 # Xmarin Crossplattform slider

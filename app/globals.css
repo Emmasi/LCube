@@ -1,7 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.test{
+    width: 30%;
+}
 
+body{
+    font-family: "Source Code Pro", monospace;
+    font-weight: 300;
+    font-size: 14pt;
+}
 
 h1{
     color: #16252c;
@@ -18,17 +26,24 @@ h3{
 p{
     margin: 1rem 0;
 }
-main{
-    background-color: #f5fafc;
+img{
+    margin: 5px 0;
 }
 
 .header {
-    background-color: #172847;
-    border:#f5fafc solid 1px;
+    border-bottom:#172847 solid 1px;
 }
-
 .navbar__item {
-    color: #ffffff;
+    color: #172847;
+}
+.allpost{
+    align-items: stretch;
+}
+.latestpost{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .log{
     background-color: #f5fafc;
@@ -39,12 +54,9 @@ main{
     border: 8px #172847 dotted;
     border-bottom: none;
     margin: 4rem auto;
-    width: 40%;
+    width: 50%;
 }
 
-.comments {
-    background-color: #f5f3de;
-}
 .lastBlog{
     border:#16252c solid 1px;
     padding: 5rem;
@@ -69,5 +81,5 @@ main{
 
 .footer {
     background-color: #172847;
-    color: #f5f3de;
+    min-height: 300px;
 }
