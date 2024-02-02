@@ -10,13 +10,13 @@ export default async function Page() {
 
     return (
         <>
-            <Heading heading="Blogg" />
-            <section className="w-11/12 md:w-3/6 ">
+            <Heading heading='Blogg' />
+            <section className='max-w-screen-xl mb-10'>
             <ul>
                 {posts.map(post => {
                     const { id, date, title, description } = post
                     return (
-                            <li key={id} className="px-4 py-10">
+                            <li key={id} className='mb-20'>
                                 <BlogCard postPreview={post} />
                             </li>   
                     )
