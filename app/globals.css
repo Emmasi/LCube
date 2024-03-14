@@ -1,9 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.test{
-    width: 30%;
-}
 
 body{
     font-family: "Source Code Pro", monospace;
@@ -26,6 +23,7 @@ h3{
 p{
     margin: 1rem 0;
 }
+
 img{
     margin: 5px 0;
 }
@@ -39,17 +37,7 @@ img{
 .allpost{
     align-items: stretch;
 }
-.latestpost{
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.log{
-    background-color: #f5fafc;
-    padding: 0.2rem;
-    margin-right: 0.5rem;
-}
+
 .breaker {
     border: 8px #172847 dotted;
     border-bottom: none;
@@ -57,25 +45,16 @@ img{
     width: 50%;
 }
 
-.lastBlog{
-    border:#16252c solid 1px;
-    padding: 5rem;
-}
-
-.link{
-    text-decoration: underline;
+.boxshadow{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .readMoreBtn{
-    border-radius: 15px;
-    border:1px #16252c solid;
-    background-color: #16252c;
-    color: #ffffff;
+    color: #16252c;
     display: inline-flex;
     font-weight: bold;
     margin: auto;
     padding: 0.2rem 1rem;
-
 }
 
 .footer {

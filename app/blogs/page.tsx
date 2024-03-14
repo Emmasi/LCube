@@ -9,9 +9,9 @@ export default async function Page() {
     const posts = await getAllPosts()
 
     return (
-        <>
+        <div className='max-w-screen-2xl mb-10 px-12'>
             <Heading heading='Blogg' />
-            <section className='max-w-screen-xl mb-10'>
+            <section>
             <ul>
                 {posts.map(post => {
                     const { id, date, title, description } = post
@@ -23,6 +23,6 @@ export default async function Page() {
                 })}
             </ul>
             </section>
-        </>
+        </div>
     )
 }

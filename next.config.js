@@ -6,10 +6,12 @@ const nextConfig = {
   images:{
         unoptimized:true
       },
-      output: 'export'
+      output: 'export',
+      trailingSlash: true, // for s3 routing
 }
  
 module.exports = withMDX(nextConfig)
+
 
 // const nextConfig = {
 //   images:{

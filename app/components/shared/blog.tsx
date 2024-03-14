@@ -12,16 +12,18 @@ export type PostPreview = {
 export default function Blogcard({ postPreview }: { postPreview: PostPreview }) {
 
     return (
-        <>
-            <h2 className='pb-2 md:text-4xl'>{postPreview.title}</h2>
-            <p className='text-xs italic'>{postPreview.date}</p>
-            <p className='text-lg '>{postPreview.description}</p>
-            <Link href={`/posts/${postPreview.id}`}>
-                <div className='align-center readMoreBtn'>
-                    <p className='text-2xl'>Läs mer</p>
-                    <Image src='/icon/arrow_right_icon.svg' alt='Icon' width={40} height={40}/>
-                </div>
-            </Link>
-        </>
+        <div className='md:flex p-6 boxshadow'>
+            <div className='md:w-9/12'>
+                <h2 className='pb-2 md:text-4xl'>{postPreview.title}</h2>
+                <p className='text-xs italic'>{postPreview.date}</p>
+                <p className='text-lg '>{postPreview.description}</p>
+            </div>
+            <div className='readMoreBtn'>
+                <Link href={`/posts/${postPreview.id}`}>
+                    <p className='text-2xl inline-block'>Läs mer</p>
+                    <Image className='inline-block' src='/icon/arrow_right_icon.svg' alt='Icon' width={40} height={40} />
+                </Link>
+            </div>
+        </div>
     )
 }
