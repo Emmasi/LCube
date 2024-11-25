@@ -9,21 +9,21 @@ export type PostPreview = {
     description: string
     id: string
 }
-export default function Blogcard({ postPreview }: { postPreview: PostPreview }) {
+export default function Blogcard({ postPreview, isWhiteText }: { postPreview: PostPreview, isWhiteText: boolean }) {
+    const textColorClass = isWhiteText ? 'text-white' : 'text-black';
 
     return (
-        <div className='md:flex p-6 boxshadow'>
-            <div className='md:w-9/12'>
-                <h2 className='pb-2 md:text-4xl'>{postPreview.title}</h2>
-                <p className='text-xs italic'>{postPreview.date}</p>
-                <p className='text-lg '>{postPreview.description}</p>
-            </div>
-            <div className='readMoreBtn'>
+        <div className='md:flex p-6 max-w-screen-xl'>
+            <div className='flex flex-col justify-between md:mr-20 md:mb-0 mb-20'>
+                <h2 className={`pb-2 md:text-4xl ${textColorClass}`}>{postPreview.title}</h2>
+                <p className={`text-xs italic ${textColorClass}`}>{postPreview.date}</p>
+                <p className={`text-lg ${textColorClass}`}>{postPreview.description}</p>
                 <Link href={`/posts/${postPreview.id}`}>
-                    <p className='text-2xl inline-block'>Läs mer</p>
-                    <Image className='inline-block' src='/icon/arrow_right_icon.svg' alt='Icon' width={40} height={40} />
+                    <button className="readMoreBtn py-2 px-5">Read more</button>
                 </Link>
             </div>
+            <img src='/dataimg.jpg' alt="vi får se" className='md:max-w-lg' />
+
         </div>
     )
 }

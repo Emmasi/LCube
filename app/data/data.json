@@ -20,7 +20,7 @@
             {
                 "heading": "DevOps Engineer at Skandiabanken",
                 "date": "2016-2020",
-                "text": "I work with Octopus deploy, TFS, Git, Splunk, SonarQube for the dotnet development at the bank.-Never give up, är mitt moto. Jag och min syster har en träff i morgon. Jag kommer ta med och visa henne mitt favorit sammlar verktyg."
+                "text": "I work with Octopus deploy, TFS, Git, Splunk, SonarQube for the dotnet development at the bank."
             }
         ]
     },
@@ -33,6 +33,8 @@
             "Utöver vår aktiva utveckling inom open source projekt på GitHub inom områden som Powershell, C#, JavaScript och Rust, har vi också organiserat och deltagit i flera hackathons där vi har vunnit priser. Våra insatser spänner från problemlösning inom DevOps till att utforska kvantdatorer.",
             "Vi delar gärna med oss av vår kunskap genom att skapa kurser, producera videomaterial och hålla föreläsningar. Ta en titt på våra IT-kurser på Udemy inom ämnet DevOps för att få en fördjupad inblick i vårt expertis och erfarenhet."
         ],
+        "img":"/dataimg.jpg",
+        "imgAlt":"Nån text", 
         "lastBlog": [
             {
                 "heading": "Rubrik",
@@ -79,7 +81,6 @@
                     " Microsoft – The integration story",
                     "REST/OData/Entity Framework & BizTalk Certification Cram",
                     "SQLUG-träff med Jen Stirrup / David Jonsson och årsmöte",
-                    "http://www.sqlpass.org/sqlrally/2011/nordic/",
                     "Community day .Net Best practies",
                     "Community day NoSQL 20 Februari 2013"
                 ]
@@ -129,7 +130,7 @@
             {
                 "heading": "DevOps Engineer at Skandiabanken",
                 "date": "2016-2020",
-                "text": "I work with Octopus deploy, TFS, Git, Splunk, SonarQube for the dotnet development at the bank.-Never give up, är mitt moto. Jag och min syster har en träff i morgon. Jag kommer ta med och visa henne mitt favorit sammlar verktyg."
+                "text": "I work with Octopus deploy, TFS, Git, Splunk, SonarQube for the dotnet development at the bank."
             }
         ]
     }

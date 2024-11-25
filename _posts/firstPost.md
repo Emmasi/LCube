@@ -1,7 +1,7 @@
 ---
 title: Use set operators in powershell like sql
 date: 2022-11-01
-description: In Powershell there are no set operators like union, Except, Intersection by default.
+description: In Powershell there are no set operators like union, Except, Intersection by default. Set operators are used in sql like inner-join, union etc. You could use these operator for example..
 img: /dataimg.jpg
 alt: blåtonade bilder av dator
 ---

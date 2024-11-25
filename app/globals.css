@@ -2,14 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+html, body{
+    display: flex;
     font-family: "Source Code Pro", monospace;
     font-weight: 300;
     font-size: 14pt;
+    flex-direction: column;
+    height: 100%;
+    /* margin: 0;
+    padding: 0; */
 }
-
+.test{
+    flex:1;
+}
+.header__top{
+    background-color: #1e1d1d;
+}
+.header__top a{
+    color: #FFFFFF;
+}
 h1{
-    color: #16252c;
+    color: #FFFFFF;
 }
 h2{
     font-size: 2.25rem;
@@ -27,37 +40,18 @@ p{
 img{
     margin: 5px 0;
 }
-
-.header {
-    border-bottom:#172847 solid 1px;
+.hero{
+    background-color: #000000;
+    /* text-align: -webkit-center; */
 }
-.navbar__item {
-    color: #172847;
+.hero p{
+    color: #FFFFFF;
 }
-.allpost{
-    align-items: stretch;
-}
-
-.breaker {
-    border: 8px #172847 dotted;
-    border-bottom: none;
-    margin: 4rem auto;
-    width: 50%;
-}
-
-.boxshadow{
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-}
-
 .readMoreBtn{
-    color: #16252c;
-    display: inline-flex;
-    font-weight: bold;
-    margin: auto;
-    padding: 0.2rem 1rem;
+    background-color: #007AFF;
+    color: #FFFFFF;
 }
 
 .footer {
-    background-color: #172847;
-    min-height: 300px;
+    background-color: #1e1d1d;
 }

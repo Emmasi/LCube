@@ -1,25 +1,24 @@
 import Image from 'next/image'
-import Header from '../components/shared/rubrik'
+import Hero from '../components/shared/hero'
 import Data from '../data/data.json'
 
 export default function Contact() {
     const pageData = Data.contakt
 
     return (
-        <div className='max-w-screen-2xl mb-10 px-12'>
-            <Header heading={pageData.heading} />
-            <section className='flex flex-col md:flex-row items-center justify-around'>
+        <section className='hero flex flex-col md:flex-row justify-center items-center py-20 mb-20'>
+            <div className='mr-0 md:mr-20 mb-10 md:mb-0'>
+                <h1 className='text-2xl md:mt-0 md:text-6xl font-semibold'>Kontakta Oss</h1>
                 <div className='md:w-96'>
                     <p className="text-lg">{pageData.subheading}</p>
-                    {pageData.text.map((text,i)=>(
+                    {pageData.text.map((text, i) => (
                         <p key={i} className="text-base pt-3">{text}</p>
                     ))}
-                       <Image src='/emailAddress.png' alt="email:patrik.lindstrom@lcube.se email: jane.lindstrom@lcube.se" width={300} height={200} />
+                    <Image src='/emailAddress.png' alt="email:patrik.lindstrom@lcube.se email: jane.lindstrom@lcube.se" width={300} height={200} />
                 </div>
-                <div>
-                    <Image src='/LCubelogo_transp.gif' alt="Företags loggan, tre svarta L" width={100} height={100} />
-                </div>
-            </section>
-        </div>
+            </div>
+            <img src='/dataimg.jpg' alt="vi får se" className='md:max-w-lg' />
+
+        </section>
     )
 }

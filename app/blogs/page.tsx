@@ -1,28 +1,22 @@
-
-
 import BlogCard from '../components/shared/blog'
-import Heading from '../components/shared/rubrik'
-import Breaker from '../components/shared/breaker'
 import { getAllPosts } from '@/lib/api'
 
 export default async function Page() {
     const posts = await getAllPosts()
 
     return (
-        <div className='max-w-screen-2xl mb-10 px-12'>
-            <Heading heading='Blogg' />
             <section>
             <ul>
-                {posts.map(post => {
+                {posts.map((post, index) => {
                     const { id, date, title, description } = post
+                    const backgroundClass = index % 2 === 0 ? 'bg-black' : 'bg-white';
                     return (
-                            <li key={id} className='mb-20'>
-                                <BlogCard postPreview={post} />
+                            <li key={id} className={`py-10 flex flex-col justify-center items-center ${backgroundClass}`}>
+                                <BlogCard postPreview={post} isWhiteText={index % 2 === 0}/>
                             </li>   
                     )
                 })}
             </ul>
             </section>
-        </div>
     )
 }
