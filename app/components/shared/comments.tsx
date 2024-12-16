@@ -13,10 +13,13 @@ export default function Comments(props: TextProps) {
     return (
         <section className='flex flex-col md:flex-row'>
             {props.comments.map((comment, index) => (
-                <div key={index} className="w-1/1 md:w-1/3 p-10">
+                <div key={index} className="w-1/1 md:w-1/3 p-10 flex">
+                    <i className="fa fa-commenting"></i>
+                    <div>
                     <h4 className="text-lg">{comment.heading}</h4>
                     <p className="text-xs italic">{comment.date}</p>
                     <p>{comment.text}</p>
+                    </div>
                 </div>
             ))}
         </section>

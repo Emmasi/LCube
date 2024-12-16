@@ -15,6 +15,7 @@ export const metadata: Metadata = {
 export default function RootLayout({children,}: {children: React.ReactNode}) {
   return (
     <html lang="sv">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
     <body className={inter.className} >
         <Header />
         <main className="test">
