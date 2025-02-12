@@ -6,7 +6,7 @@ img: /dataimg.jpg
 alt: blåtonade bilder av dator
 ---
 
-## Use set operators in powershell like sql 
+## Use set operators in powershell like sql
 In Powershell there are no set operators like union, Except, Intersection by default.
 Set operators are used in sql like inner-join, union etc.
 You could use these operator for example to find out which certificates exist on server A but not B or to find what data is new in a huge csv file compared with the previous on.

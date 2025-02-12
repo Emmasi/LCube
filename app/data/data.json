@@ -6,7 +6,7 @@
             "LCube har erfarenheter av deployer med olika verktyg som: AzureDevOps, GitHub, TeamCity, Octopus Deploy.Deployment språk vi använt är: powershell, bash, cake, packer, terraform.",
             "De molnplattformar vi arbetat med är: Amazons AWS och Microsoft Azure. Vi kan även göra applikationer skrivna i C# med ASP.NET eller .NET Core. Vi har haft media, retail fashion, banker och iGaming som kunder."
         ],
-        "comment": [
+        "descriptions": [
             {
                 "heading": "H & M",
                 "date": "2005-2011",
@@ -115,23 +115,6 @@
         "text": [
             "Vi finns i Stockholm",
             "Kontaka oss på:"
-        ],
-        "comment": [
-            {
-                "heading": "H & M",
-                "date": "2005-2011",
-                "text": "Programming a Website for internal Logistics with 130 users all over the world. Technical stack is SQL Server"
-            },
-            {
-                "heading": "SEB IT",
-                "date": "2011-2016",
-                "text": "For the Onefund Project i am handling the deployment of TCM TMC is a system for handling Funds. in a complex environment with SQLServer, Soap webservices running on IIS, SAML security for all the development and testservers."
-            },
-            {
-                "heading": "DevOps Engineer at Skandiabanken",
-                "date": "2016-2020",
-                "text": "I work with Octopus deploy, TFS, Git, Splunk, SonarQube for the dotnet development at the bank."
-            }
         ]
     }
 }

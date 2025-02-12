@@ -7,12 +7,15 @@ export default async function Post({
 }) {
   const { html, title, date } = await getPostById(id)
   return (
-    <section className="max-w-screen-2xl mb-10 px-8">
-      <h1 className="my-10 text-2xl md:mt-0 md:text-6xl font-semibold">{title}</h1>
-      <p className="text-s italic">{date}</p>
-      <div className="py-6" dangerouslySetInnerHTML={{ __html: html }} />
+    <section className="max-w-4xl mx-auto mt-12 mb-12 px-4">
+      <h1 className="mb-6 text-3xl md:text-5xl font-semibold">{title}</h1>
+      <p className="mb-4 text-sm italic text-gray-600">{date}</p>
+      <div className="prose prose-lg max-w-none">
+        <div dangerouslySetInnerHTML={{ __html: html }} />
+      </div>
     </section>
-  )
+  );
+  
 }
 
 export async function generateStaticParams() {

@@ -1,19 +1,31 @@
-import React, { ReactNode } from 'react';
-import Navigation from './nav'
-
+import dynamic from 'next/dynamic';
+import Link from 'next/link';
+import Navigation from './Nav';
+const MobileMenu = dynamic(() => import('./MobileMenu'), {
+    ssr: false,
+});
 
 export default function Header() {
     return (
         <header>
-            <div className='header__top px-8'>
-                <ul className='flex justify-end p-2'>
-                    <li className='px-8'><a>LindedIn</a></li>
-                    <li className='px-8'><a>Github</a></li>
-                </ul>
+            <div className="px-8 py-2 flex items-end bg-black text-white">
+                <div className="ml-auto flex items-center space-x-4">
+                    <nav className="hidden md:flex space-x-8">
+                        <Link href="#" className="hover:text-blue-600 md:text-xs">
+                            [ LinkedIn ]
+                        </Link>
+                        <Link href="#" className="hover:text-blue-600 md:text-xs">
+                            [ Github ]
+                        </Link>
+                    </nav>
+                    <div className="md:hidden">
+                        <MobileMenu />
+                    </div>
+                </div>
             </div>
-            <div className='header__bottom'>
+            <div className="hidden md:block">
                 <Navigation />
             </div>
         </header>
-    )
+    );
 }
