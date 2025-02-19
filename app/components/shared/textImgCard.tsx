@@ -14,7 +14,7 @@ export default function textImgCard(props: TextProps) {
         <h2 className="text-2xl font-bold mb-4">{props.introTextProps}</h2>
         <div className="space-y-4">
           {props.textProps.map((text, index) => (
-            <p key={index} className="text-base">
+            <p key={index} className="text-sm">
               {text}
             </p>
           ))}

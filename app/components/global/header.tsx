@@ -8,7 +8,7 @@ const MobileMenu = dynamic(() => import('./MobileMenu'), {
 export default function Header() {
     return (
         <header>
-            <div className="px-8 py-2 flex items-end bg-black text-white">
+            {/* <div className="px-8 py-2 flex items-end bg-black text-white">
                 <div className="ml-auto flex items-center space-x-4">
                     <nav className="hidden md:flex space-x-8">
                         <Link href="#" className="hover:text-blue-600 md:text-xs">
@@ -22,8 +22,11 @@ export default function Header() {
                         <MobileMenu />
                     </div>
                 </div>
+            </div> */}
+            <div className="md:hidden">
+                <MobileMenu />
             </div>
-            <div className="hidden md:block">
+            <div className="hidden md:block bg-black text-white">
                 <Navigation />
             </div>
         </header>

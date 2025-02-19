@@ -4,13 +4,13 @@ export default function Footer() {
       <div className="max-w-screen-xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div>
-            <h3 className="text-lg font-bold mb-1">LCube AB</h3>
+            <h3 className="text-base font-bold mb-1">LCube AB</h3>
             <p className="text-sm">Stockholm</p>
             <p className="text-sm">Nyckeltal</p>
             <p className="text-sm">DUNS number search 507651581</p>
           </div>
           <div>
-            <h3 className="text-lg font-bold mb-1">Kontakta oss</h3>
+            <h3 className="text-base font-bold mb-1">Kontakta oss</h3>
             <p className="text-sm">
               <a href="#" className="hover:text-blue-400">
                 LinkedIn
