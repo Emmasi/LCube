@@ -30,11 +30,13 @@ p {
   font-size: 1.25rem;
   font-weight: bold;
 }
+
 .prose h4 {
   margin-top: 1.5rem;
   margin-bottom: 0.75rem;
   font-weight: bold;
 }
+
 .prose img {
   display: block;
   margin: 3em auto;
@@ -72,25 +74,20 @@ code {
   color: inherit !important;
 }
 
-/* Syntax highlighting */
 .token.keyword {
   color: #ff79c6;
-  /* Rosa */
 }
 
 .token.string {
   color: #f1fa8c;
-  /* Gul */
 }
 
 .token.function {
   color: #50fa7b;
-  /* Grön */
 }
 
 .token.comment {
   color: #7e8bb5 !important;
-  /* Blågrå */
   font-style: italic;
   opacity: 0.8;
 }

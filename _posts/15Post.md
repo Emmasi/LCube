@@ -5,7 +5,7 @@ description: Today I got an error of several hello world todo examples in Angula
 img: /img/angularjs.png
 alt: Angularlogan, Stort A med röd bakgrund
 ---
-![Alt text](/img/angularjs.png "Angularlogan, Stort A med röd bakgrund")
+![Angularlogan, Stort A med röd bakgrund](/img/angularjs.png)
 
 ## Broken Control error in Angular
 Today I got an error of several hello world todo examples in AngularJS when I tryed new 1.3 version.

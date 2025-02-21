@@ -11,7 +11,7 @@ I have started to write a crossplattform app with Xamarin for ios, windows and A
 
 This slider can be used to give a level of much pain you have. IRL they are used by nurses and doctors when asking patients: Show us on this stick how much pain you have on a scale between 0 and 10.
 
-![Alt text](/img/Screenshot_iPad_sim_VAS_-2014-06-08-_-18.24.27.jpg "Screenshot of iPad emulator on Mac")
+![Screenshot of iPad emulator on Mac](/img/Screenshot_iPad_sim_VAS_-2014-06-08-_-18.24.27.jpg)
 
 https://github.com/patriklindstrom/VAS-Stickan
 

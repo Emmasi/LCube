@@ -10,7 +10,7 @@ Project Euler Problem 3 is: The prime factors of 13195 are 5, 7, 13 and 29. What
 
 For finding primes quickly under 10 millions Sieve of Eratosthenes is wellknown algorithm that has been around for 2500 years. ( What I do not understand of the algorithm is that I only have to check up to the square root of the number serie see row 23. If I hade done this myself I would have looped till then of the list of numbers I am checking )
 
-![Alt text](https://upload.wikimedia.org/wikipedia/commons/a/a2/Portrait_of_Eratosthenes.png "Portrait of Eratosthenes")
+![Portrait of Eratosthenes](https://upload.wikimedia.org/wikipedia/commons/a/a2/Portrait_of_Eratosthenes.png)
 
 ```js
 USE tempdb

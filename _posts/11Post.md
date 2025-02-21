@@ -7,30 +7,30 @@ alt: rhinoceros
 ---
 
 Rhino-Etl is an Opensource framework for doing Extract Transform and Load of data (ETL) in C#. There are other commercial ETL products that can do this as well. I have mostly used Microsofts SSIS. It is easy to get started with SSIS and it has good performance.
-![Alt text](https://raw.github.com/patriklindstrom/HelloWorld-Rhino-ETL/master/Images/durer-rhinoceros.jpg "rhinoceros")
+![Rhinoceros](https://raw.github.com/patriklindstrom/HelloWorld-Rhino-ETL/master/Images/durer-rhinoceros.jpg)
 But in my humble opinion is it hard to keep track of the changes in the SSIS projects. All logical rules of the transformation of the data dissapperas in a forrest of boxes and lines that has to be clicked on. SSIS marriage to code repositories resemble the marriage Tom & Kate – its just afront. The debate over ETL tools as SSIS can be emotional so I wanted to show an other path: An ETL tool that is more traditional C# developer centric: Rhino-ETL. With this tool you can program all ETL in normal C# classes or you can choose to do it with DSL script files in the BOO language and run them with Rhino-ETL-command tool.
 
 The example that follows with Rhino-ETL shows how to load two textfiles, join them and transform columns and finally put the rows somewhere. In this example it only puts them on the screen. I hope it will get people up to speed a little faster than it took me to realize that it was quit simple. All code is avaible at my github repository:github.com/patriklindstrom/HelloWorld-Rhino-ETL
 
 1. First step is to create a simple console windows application in Visual Studio.
-![Alt text](https://raw.github.com/patriklindstrom/HelloWorld-Rhino-ETL/master/Images/CreateHelloRhino-ETLProject_small.png "createHelloRhino project")
+![createHelloRhino project](https://raw.github.com/patriklindstrom/HelloWorld-Rhino-ETL/master/Images/CreateHelloRhino-ETLProject_small.png)
 
 2. Second step is to install Rhino-ETL components.
 
 The simplest way is to import a Nuget package with Rhino-ETL and all its dependent objects. You could instead download Rhino-ETL yourself build it and include the components in your project. It is a little more cumbersome and will take five to 30 minutes instead of just under a 1 minute.
 You could use the built in powershell package manager or the graphical one. Below is a screenshot how I use the graphical Nuget package manager and search for Rhino-ETL.
 
-![Alt text](https://raw.github.com/patriklindstrom/HelloWorld-Rhino-ETL/master/Images/GetFromNuget_small.png "Get From Nuget")
+![Get From Nuget](https://raw.github.com/patriklindstrom/HelloWorld-Rhino-ETL/master/Images/GetFromNuget_small.png)
 
 You can see what packages that was installed:
 
-![Alt text](https://raw.github.com/patriklindstrom/HelloWorld-Rhino-ETL/master/Images/InstalledNugetPackages_small_cut.png "Install Nuget")
+![Install Nuget](https://raw.github.com/patriklindstrom/HelloWorld-Rhino-ETL/master/Images/InstalledNugetPackages_small_cut.png)
 
 3. Third step write your code.
 
 Rhino-ETL has two main classes: EtlProcess and AbstractOperation. You register your operation in the Initialize() method of the EtlProcess.
 
-![Alt text](https://raw.github.com/patriklindstrom/HelloWorld-Rhino-ETL/master/Images/MainClasses_small_cut.png "Main Classes")
+![Main Classes](https://raw.github.com/patriklindstrom/HelloWorld-Rhino-ETL/master/Images/MainClasses_small_cut.png)
 
 So if would have three Operations: Extract data, Transform data and Load the data somewhere. This would look like this in the EtlProcess class called ExNihiloProcess :
 

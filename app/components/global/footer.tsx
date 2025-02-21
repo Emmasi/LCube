@@ -12,12 +12,12 @@ export default function Footer() {
           <div>
             <h3 className="text-base font-bold mb-1">Kontakta oss</h3>
             <p className="text-sm">
-              <a href="#" className="hover:text-blue-400">
+              <a href="https://www.linkedin.com/in/patriklindstrom64/" className="hover:text-[#4d7a3d]">
                 [ LinkedIn ]
               </a>
             </p>
             <p className="text-sm">
-              <a href="#" className="hover:text-blue-400">
+              <a href="https://github.com/patriklindstrom" className="hover:text-[#4d7a3d]">
                 [ Github ]
               </a>
             </p>

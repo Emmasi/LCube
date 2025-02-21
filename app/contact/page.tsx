@@ -10,7 +10,7 @@ export default function Contact() {
         <>
             <Breadcrum section="Contakt" />
             <section className="max-w-screen-xl mx-auto px-4 py-20 mb-20">
-                <div className="flex flex-col md:flex-row items-center">
+                <div className="flex flex-col md:flex-row justify-between items-center">
                     <div className="md:mr-20 mb-10 md:mb-0">
                         <h1 className="text-xl md:text-6xl font-bold">Kontakta Oss</h1>
                         <div className="mt-6 md:w-96">
@@ -31,11 +31,17 @@ export default function Contact() {
                         </div>
                     </div>
                     <div className="md:max-w-lg w-full">
-                        <img
-                            src="/dataimg.jpg"
-                            alt="vi får se"
-                            className="rounded-lg shadow-md"
-                        />
+                        <div className="w-full flex justify-center">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2152.2757510241363!2d18.080786691349196!3d59.33466386226651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d5a9e56184f%3A0x50075b4d45ba7bb4!2sSkeppargatan%2027%2C%20114%2052%20Stockholm!5e1!3m2!1ssv!2sse!4v1740143814389!5m2!1ssv!2sse"
+                                width="600"
+                                height="450"
+                                style={{ border: 0 }}
+                                allowFullScreen
+                                loading="lazy"
+                                referrerPolicy="no-referrer-when-downgrade"
+                            />
+                        </div>
                     </div>
                 </div>
             </section>

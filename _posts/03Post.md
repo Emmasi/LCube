@@ -13,7 +13,7 @@ Fibonacci can formula can be calculated by using golden ratio with Binets formul
 
 I define a function to calculate Fibonacci for the term n as: golden ratio raised to n divided with sqr of 5 and the get the closest integer.
 Or in T-SQL is:
-![Alt text](http://upload.wikimedia.org/wikipedia/commons/d/dc/Pentagram_and_human_body_%28Agrippa%29.jpg "Human body relationship to golden ration")
+![Human body relationship to golden ration](http://upload.wikimedia.org/wikipedia/commons/d/dc/Pentagram_and_human_body_%28Agrippa%29.jpg)
 
 ```js
 Create FUNCTION dbo.FiboN (@n int)

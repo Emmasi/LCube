@@ -19,7 +19,7 @@ export default async function dubbleBloggCards() {
               <h3 className="pb-2 md:text-base font-semibold">{post.title}</h3>
               <p className="text-xs italic">{post.date}</p>
               <p className="text-sm mt-4">{post.description}</p>
-              <Link href={`/posts/${post.id}`} className="hover:text-blue-600 hover:underline md:text-sm py-2">
+              <Link href={`/posts/${post.id}`} className="hover:text-[#4d7a3d] hover:underline md:text-sm py-2">
               [ Read more ]
               </Link>
             </div>

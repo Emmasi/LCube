@@ -1,42 +1,10 @@
 {
-    "start": {
-        "heading": "Välkommen till LCube AB",
-        "intro": "LCube är ett mindre företag som är inriktat på DevOps.",
-        "text": [
-            "LCube har erfarenheter av deployer med olika verktyg som: AzureDevOps, GitHub, TeamCity, Octopus Deploy.Deployment språk vi använt är: powershell, bash, cake, packer, terraform.",
-            "De molnplattformar vi arbetat med är: Amazons AWS och Microsoft Azure. Vi kan även göra applikationer skrivna i C# med ASP.NET eller .NET Core. Vi har haft media, retail fashion, banker och iGaming som kunder."
-        ],
+    "global": {
         "descriptions": [
             {
-                "heading": "H & M",
-                "date": "2005-2011",
-                "text": "Programming a Website for internal Logistics with 130 users all over the world. Technical stack is SQL Server"
-            },
-            {
-                "heading": "Technical Reviewer for books on SQL 2014 Server and Powershell",
-                "date": "2015-2015",
-                "text": "I tested and commented the powershell and T-SQL code in the book. I gave advice on code changes and what make the examples more interesting or easier to understand."
-            },
-            {
-                "heading": "SEB IT",
-                "date": "2011-2016",
-                "text": "For the Onefund Project i am handling the deployment of TCM TMC is a system for handling Funds. in a complex environment with SQLServer, Soap webservices running on IIS, SAML security for all the development and testservers."
-            },
-            
-            {
-                "heading": "DevOps Engineer at Skandiabanken",
-                "date": "2016-2020",
-                "text": "I work with Octopus deploy, TFS, Git, Splunk, SonarQube for the dotnet development at the bank."
-            },
-            {
-                "heading": "DevOps Engineer Betsson Group",
-                "date": "2020-2021",
-                "text": "I work with products as Octopus deploy, TeamCity, Git, Terraform, Packer, Consul to help the DevOps process for AWS."
-            },
-            {
-                "heading": "Schibsted Enterprise Technology",
-                "date": "2021-2022",
-                "text": "I manage Github Enterprise , Jira and Confluence -Servers and system. They all run in AWS with +1500 users. The pipeline is built with Travis and Spinnaker. Work with Advanced Security and GitHub Actions"
+                "heading": "Handelsbanken",
+                "date": "2023-2025",
+                "text": "I work with Azure DevOps for SHB frontend teams. I Optimized build pipelines. Handle DevSecOps with Mend, GitHub Adv Security for Azure DevOps. I figure out improvements to enhance developer experience. I participate in FinOps and security discussions. I try to spread my view of best practices for DevSecOps."
             },
             {
                 "heading": "Carnegie Investment Bank",
@@ -44,36 +12,70 @@
                 "text": "At Carnegie I work with Azure, Azure DevOps. Mend and SonarQube. I handle DevSecOps and Developer experience stuff. Recently also started with Curity identity server that handles IAM and API Security."
             },
             {
-                "heading": "Handelsbanken",
-                "date": "2023-2025",
-                "text": "I work with Azure DevOps for SHB frontend teams. I Optimized build pipelines. Handle DevSecOps with Mend, GitHub Adv Security for Azure DevOps. I figure out improvements to enhance developer experience. I participate in FinOps and security discussions. I try to spread my view of best practices for DevSecOps."
+                "heading": "Schibsted Enterprise Technology",
+                "date": "2021-2022",
+                "text": "I manage Github Enterprise , Jira and Confluence -Servers and system. They all run in AWS with +1500 users. The pipeline is built with Travis and Spinnaker. Work with Advanced Security and GitHub Actions"
+            },
+            {
+                "heading": "DevOps Engineer Betsson Group",
+                "date": "2020-2021",
+                "text": "I work with products as Octopus deploy, TeamCity, Git, Terraform, Packer, Consul to help the DevOps process for AWS."
+            },
+            {
+                "heading": "DevOps Engineer at Skandiabanken",
+                "date": "2016-2020",
+                "text": "I work with Octopus deploy, TFS, Git, Splunk, SonarQube for the dotnet development at the bank."
+            },
+            {
+                "heading": "SEB IT",
+                "date": "2011-2016",
+                "text": "For the Onefund Project i am handling the deployment of TCM TMC is a system for handling Funds. in a complex environment with SQLServer, Soap webservices running on IIS, SAML security for all the development and testservers."
+            },
+            {
+                "heading": "Technical Reviewer for books on SQL 2014 Server and Powershell",
+                "date": "2015-2015",
+                "text": "I tested and commented the powershell and T-SQL code in the book. I gave advice on code changes and what make the examples more interesting or easier to understand."
+            },
+            {
+                "heading": "H & M",
+                "date": "2005-2011",
+                "text": "Programming a Website for internal Logistics with 130 users all over the world. Technical stack is SQL Server"
             }
         ]
     },
-    "aboutUs": {
-        "heading": "Om LCube AB",
-        "subheading": "LCube AB ",
-        "text": [
-            "Vi är ett litet konsultföretag som etablerades år 2002 och har sitt huvudsäte i Stockholm. Vår passion ligger i att arbeta med rapporter och vi har varit engagerade inom Olap och Business Intelligence sedan slutet av 1990-talet. Vi har en kreativ approach när det kommer till problemlössningar, och vårt specialområde är utveckling inom Microsoft-stacken.",
-            "Genom åren har vi framgångsrikt hjälpt företag inom olika branscher, inklusive bank, media och detaljhandel, med att skapa samarbetsmöjligheter mellan verksamhet, IT-drift och utvecklingsavdelningar. I vår verktygslåda för att främja en välfungerande DevOps-kultur inkluderar vi aktiviteter som hälsotävlingar och sociala evenemang för att stärka teamandan.",
-            "Utöver vår aktiva utveckling inom open source projekt på GitHub inom områden som Powershell, C#, JavaScript och Rust, har vi också organiserat och deltagit i flera hackathons där vi har vunnit priser. Våra insatser spänner från problemlösning inom DevOps till att utforska kvantdatorer.",
-            "Vi delar gärna med oss av vår kunskap genom att skapa kurser, producera videomaterial och hålla föreläsningar. Ta en titt på våra IT-kurser på Udemy inom ämnet DevOps för att få en fördjupad inblick i vårt expertis och erfarenhet."
-        ],
-        "img":"/dataimg.jpg",
-        "imgAlt":"Nån text", 
-        "lastBlog": [
-            {
-                "heading": "Rubrik",
-                "date": "02-10-2018",
-                "text": "Nått typ av intro till själva bloggen..."
-            },
-            {
-                "heading": "Rubrik",
-                "date": "02-10-2018",
-                "text": "Nått typ av intro till själva bloggen..."
-            }
-        ],
-        "stycken": [
+    "startPage": {
+        "hero": {
+            "heading": "Välkommen till LCube AB",
+            "intro": "LCube är ett mindre företag som är inriktat på DevOps."
+        },
+        "textCard": {
+            "intro": "LCube är ett mindre företag som är inriktat på DevOps.",
+            "text": [
+                "LCube har erfarenheter av deployer med olika verktyg som: AzureDevOps, GitHub, TeamCity, Octopus Deploy.Deployment språk vi använt är: powershell, bash, cake, packer, terraform.",
+                "De molnplattformar vi arbetat med är: Amazons AWS och Microsoft Azure. Vi kan även göra applikationer skrivna i C# med ASP.NET eller .NET Core. Vi har haft media, retail fashion, banker och iGaming som kunder."
+            ]
+        }
+    },
+    "aboutPage": {
+        "heroImg": {
+            "heading": "Om LCube AB",
+            "subheading": "LCube AB ",
+            "text": [
+                "Vi är ett litet konsultföretag som etablerades år 2002 och har sitt huvudsäte i Stockholm. Vår passion ligger i att arbeta med rapporter och vi har varit engagerade inom Olap och Business Intelligence sedan slutet av 1990-talet. Vi har en kreativ approach när det kommer till problemlössningar, och vårt specialområde är utveckling inom Microsoft-stacken.",
+                "Genom åren har vi framgångsrikt hjälpt företag inom olika branscher, inklusive bank, media och detaljhandel, med att skapa samarbetsmöjligheter mellan verksamhet, IT-drift och utvecklingsavdelningar. I vår verktygslåda för att främja en välfungerande DevOps-kultur inkluderar vi aktiviteter som hälsotävlingar och sociala evenemang för att stärka teamandan.",
+                "Utöver vår aktiva utveckling inom open source projekt på GitHub inom områden som Powershell, C#, JavaScript och Rust, har vi också organiserat och deltagit i flera hackathons där vi har vunnit priser. Våra insatser spänner från problemlösning inom DevOps till att utforska kvantdatorer.",
+                "Vi delar gärna med oss av vår kunskap genom att skapa kurser, producera videomaterial och hålla föreläsningar. Ta en titt på våra IT-kurser på Udemy inom ämnet DevOps för att få en fördjupad inblick i vårt expertis och erfarenhet."
+            ],
+            "img": "/dataimg.jpg",
+            "imgAlt": "Nån text"
+        },
+        "Partik": {
+            "heading": "Patrik",
+            "text": [
+                "I work with products as Octopus deploy, Azure DevOps, Git, Splunk, SonarQube, Terraform, Packer, Consul, Kubernetes to help the DevOps process for Azure and AWS"
+            ]
+        },
+        "skills": [
             {
                 "heading": "Kurser på Pluralsight",
                 "text": "Kurser jag tyckte bäst om:",

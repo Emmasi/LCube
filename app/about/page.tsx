@@ -7,15 +7,15 @@ import Breadcrum from '../components/global/Breadcrum'
 import img from '@/public/img/1516231435578.jpg'
 
 export default async function Page() {
-  const aboutData = Data.aboutUs
-  const pageData = Data.start
+  const aboutData = Data.aboutPage
+  const globalData = Data.global
   return (
     <section>
       <Breadcrum section='About' />
-      <HeroImg heading={aboutData.heading} text={aboutData.text} img={aboutData.img} imgAlt={aboutData.imgAlt} />
-      <TextImgCard introTextProps='Patrik' img={'/img/1516231435578.jpg'} textProps={['I work with products as Octopus deploy, Azure DevOps, Git, Splunk, SonarQube, Terraform, Packer, Consul, Kubernetes to help the DevOps process for Azure and AWS']} />
-      <SkillsList skills={aboutData.stycken} />
-      <ProjectOverview descriptions={pageData.descriptions} heading='Uppdragsöversikt' />
+      <HeroImg heading={aboutData.heroImg.heading} text={aboutData.heroImg.text} img={aboutData.heroImg.img} imgAlt={aboutData.heroImg.imgAlt} />
+      <TextImgCard introTextProps={aboutData.Partik.heading} img={'/img/1516231435578.jpg'} textProps={aboutData.Partik.text} />
+      <SkillsList skills={aboutData.skills} />
+      <ProjectOverview descriptions={globalData.descriptions} heading='Uppdragsöversikt' />
     </section>
   )
 }

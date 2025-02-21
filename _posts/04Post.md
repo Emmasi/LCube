@@ -6,7 +6,7 @@ img:
 alt: 
 ---
 
-![Alt text](http://upload.wikimedia.org/wikipedia/commons/a/a4/Chinese_characters_logo.jpg "Kinesiska tecken")
+![Kinesiska tecken](http://upload.wikimedia.org/wikipedia/commons/a/a4/Chinese_characters_logo.jpg)
 
 
 För att träna på att skriva plug-in till jQuery komponenten Datatables så har jag gjort en websida: http://sorting.lcube.se/ . Där kan man prova sortera på olika begrepp med min plug-in. Jag tänker förklara hur jag förstått hur kinesiska tecken sorteras samt utveckla hur jag gör  och vilka bekymmer som uppstår. Det första problemet jag hade var att jag trodde att 三 (san1) kom efter 二 (Er4). Det här måste vara en bugg var min första reflektion. Men efter att ha sovit på saken så insåg jag att  talet 3  三 (san1) har ju radikalen 一 vilket har färre streck än vad teckent för två som har två streck i sin radikal.

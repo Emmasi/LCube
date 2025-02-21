@@ -8,6 +8,7 @@ export type PostPreview = {
     date: string
     description: string
     img: string
+    alt: string
     id: string
 }
 export default function Blogcard({ postPreview, isWhiteText }: { postPreview: PostPreview, isWhiteText: boolean }) {
@@ -22,7 +23,7 @@ export default function Blogcard({ postPreview, isWhiteText }: { postPreview: Po
           <p className={`text-sm flex-grow ${textColorClass}`}>{postPreview.description}</p>
           <Link
             href={`/posts/${postPreview.id}`}
-            className={`px-2 py-4 md:text-base text-lg hover:text-[#6a9955] hover:underline ${textColorClass}`}
+            className={`px-2 py-4 md:text-base text-lg hover:text-[#4d7a3d] hover:underline ${textColorClass}`}
           >
             [ Read more ]
           </Link>
@@ -31,7 +32,7 @@ export default function Blogcard({ postPreview, isWhiteText }: { postPreview: Po
           <div className="flex items-center">
             <img
               src={postPreview.img}
-              alt="vi får se"
+              alt={postPreview.alt}
               className="w-full object-cover rounded-lg shadow-lg"
             />
           </div>

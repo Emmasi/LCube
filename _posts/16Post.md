@@ -13,7 +13,7 @@ You could use these operator for example to find out which certificates exist on
 I will show you in a few articles a simple way to this good performance with some help from linq in CSharp and using the set operators that you can use on dictionaries.
 
 ### What common set operators are there?
-![Alt text](/img/2016-11-01-18_48_45-A-or-B-venn-diagram-Wolfram_Alpha.png "Diagram")
+![Diagram](/img/2016-11-01-18_48_45-A-or-B-venn-diagram-Wolfram_Alpha.png)
 
 ### We want the following set operations:
 not A and B => DiffFile see [Explanation of expression](https://www.wolframalpha.com/input/?i=not+A+and+B) or see more easily [Venn diagram](https://www.wolframalpha.com/share/clip?f=d41d8cd98f00b204e9800998ecf8427e41kvo33uui)
@@ -125,7 +125,7 @@ Write-host "InterSect - What do the sets have in common" -ForegroundColor DarkMa
 [SetToolbox.SetOperator]::InterSect($Set1,$Set2) |Format-Table
 ```
 
-![Alt text](/img/2016-11-01-21_42_26-Use-set-operators-in-powershell-like-sql-_-LCube.png "blåtonad bild av dator")
+![operators in powershell like sql](/img/2016-11-01-21_42_26-Use-set-operators-in-powershell-like-sql-_-LCube.png)
 ### Next Article about sets
 Next article will be about using set operators on powershell hashlists
 so you can do:

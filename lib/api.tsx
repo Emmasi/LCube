@@ -35,6 +35,7 @@ export async function getPostById(id: string) {
     title: data.title || "No title",
     description: data.description || "",
     img:data.img || "",
+    alt:data.alt || "Bild text saknas",
     date: data.date ? new Date(data.date).toISOString().slice(0, 10) : "Unknown",
     content: processedContent.toString(),
   };

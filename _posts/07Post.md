@@ -12,7 +12,7 @@ alt: kinatecken
 
 今天，在JavaScript只有少许的几行代码 。诀窍是使用 localCompare ( 参考 )。然而众所周知这一功能在不同的网页浏览器存在这问题。DataTables 的作者Allan Jardine给我指出了这一点。我会在我的博客上进一步探索看是否给汉字排序带来问题。
 
-![Alt text](https://www.lcube.se/wp-content/uploads/2012/06/fiveeight.png "kinatecken")
+![Kinatecken](https://www.lcube.se/wp-content/uploads/2012/06/fiveeight.png )
 
 ```js
 $.fn.dataTableExt.oSort['chinese-string-asc'] = function (s1, s2) {
