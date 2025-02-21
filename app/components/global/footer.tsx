@@ -13,12 +13,12 @@ export default function Footer() {
             <h3 className="text-base font-bold mb-1">Kontakta oss</h3>
             <p className="text-sm">
               <a href="#" className="hover:text-blue-400">
-                LinkedIn
+                [ LinkedIn ]
               </a>
             </p>
             <p className="text-sm">
               <a href="#" className="hover:text-blue-400">
-                Github
+                [ Github ]
               </a>
             </p>
           </div>

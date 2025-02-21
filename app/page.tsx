@@ -12,7 +12,7 @@ export default function Home() {
         <div>
             <Breadcrum />
             <Hero heading={pageData.heading} />
-            <TextImgCard introTextProps={pageData.intro} textProps={pageData.text} />
+            <TextImgCard img={'/dataimg.jpg'} introTextProps={pageData.intro} textProps={pageData.text} />
             <DubbleBloggCards />
             <Hero heading="Frågor och svar på StackExchange och StackOverflow">
                 <a href="#" className="text-base md:text-base p-4 hover:text-[#6a9955]">

@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import DigitalClock from './DigClock';
 interface Breadcrum {
   section?: string;
   page?: string;
@@ -13,7 +12,7 @@ export default function Breadcrum({ section, page }: Breadcrum) {
           <ol className="inline-flex items-center space-x-2 text-[#f8f8f2]">
             <li>
               <Link href="/">
-                <span className="cursor-pointer text-xs transition-colors hover:text-[#50FA7B]">
+                <span className="cursor-pointer text-xs transition-colors hover:text-[#6a9955]">
                   Home
                 </span>
               </Link>
@@ -22,7 +21,7 @@ export default function Breadcrum({ section, page }: Breadcrum) {
               <li className="flex items-center">
                 <span className="mx-1 text-[#FFFFFF]">/</span>
                 <Link href={"/" + section.toLowerCase()}>
-                  <span className="cursor-pointer text-xs transition-colors hover:text-[#50FA7B]">
+                  <span className="cursor-pointer text-xs transition-colors hover:text-[#6a9955]">
                     {section}
                   </span>
                 </Link>
@@ -44,9 +43,6 @@ export default function Breadcrum({ section, page }: Breadcrum) {
         >
           <polygon points="0,0 20,50 0,100" fill="#282a36" />
         </svg>
-      </div>
-      <div className='flex justify-end items-center md:h-6 w-full md:w-1/6'>
-        <DigitalClock />
       </div>
     </div>
   );

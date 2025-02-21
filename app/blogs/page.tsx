@@ -8,15 +8,14 @@ export default async function Page() {
     return (
         <section>
             <Breadcrum section="Blogs" />
-            <ul>
+            <ul className="w-full flex flex-col items-center">
                 {posts.map((post, index) => {
-                    const { id, date, title, description } = post
-                    const backgroundClass = index % 2 === 0 ? 'bg-black' : 'bg-white';
+                    const backgroundClass = index % 2 === 0 ? "bg-black" : "bg-white";
                     return (
-                        <li key={id} className={`py-10 flex flex-col justify-center items-center ${backgroundClass}`}>
+                        <li key={post.id} className={`py-10 flex justify-center w-full ${backgroundClass}`}>
                             <BlogCard postPreview={post} isWhiteText={index % 2 === 0} />
                         </li>
-                    )
+                    );
                 })}
             </ul>
         </section>

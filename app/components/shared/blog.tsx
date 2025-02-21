@@ -7,22 +7,35 @@ export type PostPreview = {
     title: string,
     date: string
     description: string
+    img: string
     id: string
 }
 export default function Blogcard({ postPreview, isWhiteText }: { postPreview: PostPreview, isWhiteText: boolean }) {
     const textColorClass = isWhiteText ? 'text-white' : 'text-black';
+    const hasImage = postPreview.img && postPreview.img.trim() !== "";
 
     return (
-        <div className='md:flex p-6 max-w-screen-xl'>
-            <div className='flex flex-col justify-between md:mr-20 md:mb-0 mb-20'>
-                <h2 className={`pb-2 md:text-2xl ${textColorClass}`}>{postPreview.title}</h2>
-                <p className={`text-xs italic ${textColorClass}`}>{postPreview.date}</p>
-                <p className={`text-sm ${textColorClass}`}>{postPreview.description}</p>
-                <Link href={`/posts/${postPreview.id}`} className={`px-2 py-4 md:text-base text-4xl text-4xl hover:text-blue-600 hover:underline ${textColorClass}`}>
-                [ Read more ]
-                </Link>
-            </div>
-            <img src='/dataimg.jpg' alt="vi får se" className='md:max-w-lg' />
+      <div className={`grid ${hasImage ? "md:grid-cols-[1fr_250px]" : "md:grid-cols-1"} gap-10 items-stretch p-6 max-w-4xl w-full`}>
+        <div className={`flex flex-col ${hasImage ? "justify-between" : "justify-center text-center"}`}>
+          <h2 className={`pb-2 md:text-2xl ${textColorClass}`}>{postPreview.title}</h2>
+          <p className={`text-xs italic ${textColorClass}`}>{postPreview.date}</p>
+          <p className={`text-sm flex-grow ${textColorClass}`}>{postPreview.description}</p>
+          <Link
+            href={`/posts/${postPreview.id}`}
+            className={`px-2 py-4 md:text-base text-lg hover:text-[#6a9955] hover:underline ${textColorClass}`}
+          >
+            [ Read more ]
+          </Link>
         </div>
-    )
+        {hasImage && (
+          <div className="flex items-center">
+            <img
+              src={postPreview.img}
+              alt="vi får se"
+              className="w-full object-cover rounded-lg shadow-lg"
+            />
+          </div>
+        )}
+      </div>
+    );
 }

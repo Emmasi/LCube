@@ -13,14 +13,40 @@
                 "text": "Programming a Website for internal Logistics with 130 users all over the world. Technical stack is SQL Server"
             },
             {
+                "heading": "Technical Reviewer for books on SQL 2014 Server and Powershell",
+                "date": "2015-2015",
+                "text": "I tested and commented the powershell and T-SQL code in the book. I gave advice on code changes and what make the examples more interesting or easier to understand."
+            },
+            {
                 "heading": "SEB IT",
                 "date": "2011-2016",
                 "text": "For the Onefund Project i am handling the deployment of TCM TMC is a system for handling Funds. in a complex environment with SQLServer, Soap webservices running on IIS, SAML security for all the development and testservers."
             },
+            
             {
                 "heading": "DevOps Engineer at Skandiabanken",
                 "date": "2016-2020",
                 "text": "I work with Octopus deploy, TFS, Git, Splunk, SonarQube for the dotnet development at the bank."
+            },
+            {
+                "heading": "DevOps Engineer Betsson Group",
+                "date": "2020-2021",
+                "text": "I work with products as Octopus deploy, TeamCity, Git, Terraform, Packer, Consul to help the DevOps process for AWS."
+            },
+            {
+                "heading": "Schibsted Enterprise Technology",
+                "date": "2021-2022",
+                "text": "I manage Github Enterprise , Jira and Confluence -Servers and system. They all run in AWS with +1500 users. The pipeline is built with Travis and Spinnaker. Work with Advanced Security and GitHub Actions"
+            },
+            {
+                "heading": "Carnegie Investment Bank",
+                "date": "2022-2023",
+                "text": "At Carnegie I work with Azure, Azure DevOps. Mend and SonarQube. I handle DevSecOps and Developer experience stuff. Recently also started with Curity identity server that handles IAM and API Security."
+            },
+            {
+                "heading": "Handelsbanken",
+                "date": "2023-2025",
+                "text": "I work with Azure DevOps for SHB frontend teams. I Optimized build pipelines. Handle DevSecOps with Mend, GitHub Adv Security for Azure DevOps. I figure out improvements to enhance developer experience. I participate in FinOps and security discussions. I try to spread my view of best practices for DevSecOps."
             }
         ]
     },
@@ -86,28 +112,6 @@
                 ]
             }
         ]
-    },
-    "blogs": {
-        "heading": "Blog",
-        "blogs":[
-            {
-                "subheading": "Under rubrik",
-                "introText": "Intro texten frå bloggen..."
-            },
-            {
-                "subheading": "Under rubrik",
-                "introText": "Intro texten frå bloggen..."
-            },
-            {
-                "subheading": "Under rubrik",
-                "introText": "Intro texten frå bloggen..."
-            }
-        ]
-    },
-    "blog":{
-        "heading":"Rubrik",
-        "subheading":"Rubrik",
-        "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     "contakt": {
         "heading": "Kontakta oss",

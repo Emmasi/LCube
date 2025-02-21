@@ -3,7 +3,7 @@ import MarkdownRenderer from '@/app/components/global/MarkdownRenderer';
 import { getPostById, getAllPosts } from '@/lib/api';
 
 export default async function Post({ params: { id } }: { params: { id: string } }) {
-  const { content, title, date } = await getPostById(id); // Nu får vi `content` korrekt!
+  const { content, title, date } = await getPostById(id); 
 
   return (
     <>

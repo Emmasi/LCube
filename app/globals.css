@@ -30,6 +30,28 @@ p {
   font-size: 1.25rem;
   font-weight: bold;
 }
+.prose h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-weight: bold;
+}
+.prose img {
+  display: block;
+  margin: 3em auto;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .prose img {
+    max-width: 40em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .prose img {
+    max-width: 50em;
+  }
+}
 
 .prose a {
   color: blue;
@@ -67,7 +89,7 @@ code {
 }
 
 .token.comment {
-  color: #6272a4 !important;
+  color: #7e8bb5 !important;
   /* Blågrå */
   font-style: italic;
   opacity: 0.8;

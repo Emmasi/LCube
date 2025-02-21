@@ -2,8 +2,8 @@
 title: Use set operators in powershell like sql
 date: 2022-11-01
 description: In Powershell there are no set operators like union, Except, Intersection by default. Set operators are used in sql like inner-join, union etc. You could use these operator for example..
-img: /dataimg.jpg
-alt: blåtonade bilder av dator
+img: /img/2016-11-01-18_48_45-A-or-B-venn-diagram-Wolfram_Alpha.png
+alt: Diagram
 ---
 
 ## Use set operators in powershell like sql
@@ -13,7 +13,7 @@ You could use these operator for example to find out which certificates exist on
 I will show you in a few articles a simple way to this good performance with some help from linq in CSharp and using the set operators that you can use on dictionaries.
 
 ### What common set operators are there?
-![Alt text](/img/2016-11-01-18_48_45-A-or-B-venn-diagram-Wolfram_Alpha.png "blåtonad bild av dator")
+![Alt text](/img/2016-11-01-18_48_45-A-or-B-venn-diagram-Wolfram_Alpha.png "Diagram")
 
 ### We want the following set operations:
 not A and B => DiffFile see [Explanation of expression](https://www.wolframalpha.com/input/?i=not+A+and+B) or see more easily [Venn diagram](https://www.wolframalpha.com/share/clip?f=d41d8cd98f00b204e9800998ecf8427e41kvo33uui)
